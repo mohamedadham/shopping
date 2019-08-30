@@ -91,7 +91,7 @@ class App extends React.Component {
 //            i++;
 //        
 //        })
-        cart[c].quantity=0;
+        cart[c].quantity=1;
         cart.splice(c,1)
         this.total()
         return this.setState({cart:cart})
